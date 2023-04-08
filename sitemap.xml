@@ -10,19 +10,23 @@
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/academic/</loc>
-    <lastmod>2023-03-17T15:07:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://example.com/categories/</loc>
-    <lastmod>2023-03-17T15:07:00+00:00</lastmod>
+    <lastmod>2023-04-07T15:07:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/category/demo/</loc>
-    <lastmod>2023-03-17T15:07:00+00:00</lastmod>
+    <lastmod>2023-04-07T15:07:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/post/dinner/</loc>
+    <lastmod>2023-04-07T15:07:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/post/</loc>
+    <lastmod>2023-04-07T15:07:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/tag/academic/</loc>
     <lastmod>2023-03-17T15:07:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -35,6 +39,10 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/post/github/</loc>
+    <lastmod>2023-03-17T15:07:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/post/markdown/</loc>
     <lastmod>2023-03-17T15:07:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -68,10 +76,6 @@
   </url><url>
     <loc>https://example.com/tag/source-themes/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/post/jupyter/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/slides/</loc>
@@ -119,6 +123,12 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/admin/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/tag/moscow./</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/tag/ramadan./</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

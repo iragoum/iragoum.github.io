@@ -68,6 +68,70 @@ In this article, we’ll first explain those two principles. Then, we’ll dig i
     </item>
     
     <item>
+      <title>What Is markdown? A Beginner’s Introduction to markdown</title>
+      <link>https://example.com/post/markdown/</link>
+      <pubDate>Fri, 17 Mar 2023 15:07:00 +0000</pubDate>
+      <guid>https://example.com/post/markdown/</guid>
+      <description>&lt;h2 id=&#34;what-is-markdown&#34;&gt;What is Markdown?&lt;/h2&gt;
+&lt;p&gt;Markdown is a lightweight markup language that describes how text should look on a page. HTML is another example of a markup language. Markdown is a style of writing documents that makes it easy to define what the content should look like. It describes headers, text styles, links, lists and so much more.&lt;/p&gt;
+&lt;p&gt;Markdown is used in documentation, articles, and notes and can even be used to build a webpage. If you use GitHub, you&amp;rsquo;ll be familiar with the “readme.md” files that show up in the root of a repository. That “md” stands for markdown. You can even create a readme on your GitHub profile to customize your GitHub profile page. Example of GitHub readme.md file:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s a very readable syntax and it can be converted into HTML, XHTML as well as in other formats. Its main purpose is readability and ease of use.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Markdown Editors&lt;/strong&gt;: You can write markdown in any text editor, Markpad, HarooPad, MarkdownPad2 and Typora, but it&amp;rsquo;s really nice to have something that gives you a preview of what it is going to look like. So what we are going to use is Visual Studio Code(VS Code) with an extension called “Auto Open Markdown Previewer&amp;rsquo;&amp;rsquo;. Given below is the image of the extension that we are going to use:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;why-should-you-use-markdown&#34;&gt;Why Should You Use Markdown?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Simple Learning Curve:&lt;/strong&gt; Markdown is very simple to learn. The official syntax can be found on the website: daringfireball. However, you need to know that typing &lt;em&gt;word&lt;/em&gt; will make it bold, typing &lt;em&gt;word&lt;/em&gt; will change that word to italics, and adding a - sign before the word will create lists. Also, it is much easier to read raw Markdown than raw HTML.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Easy HTML Conversion:&lt;/strong&gt; Markdown has built-in software to convert a plain text to HTML. Hence it can also be considered as a text-to-HTML conversion software in addition to being a markup language.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create Static Sites Easily:&lt;/strong&gt; Markdown empowers you to make free, simple, and static sites utilizing open-source tools like Mkdocs, Jekyll, or Read the Docs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Easy Sharing and Syncing:&lt;/strong&gt; You can easily sync and share files created in the Markdown editor to Dropbox, Google Drive, and WordPress.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Diversification:&lt;/strong&gt; Since Markdown is just plain text, it can be converted into a bunch of formats like &lt;strong&gt;PDF, epub, Docx, HTML, etc&lt;/strong&gt;. To acquire in-depth skills in web development, visit KnowledgeHut’s online Web Development Course and learn development from scratch.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;how-does-markdown-work&#34;&gt;How Does Markdown Work?&lt;/h2&gt;
+&lt;p&gt;Working of Markdown can be explained in the following four steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Create Markdown file:&lt;/strong&gt; The first step is to create a Markdown file with “.md” or “.markdown” extension.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Open File in Markdown Application:&lt;/strong&gt; You need a Markdown application capable of processing the Markdown file. There are lots of applications available such as Typora, Ghostwriter, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Working of Markdown Application:&lt;/strong&gt; Markdown applications use Markdown processors to take the Markdown-formatted text and output it to HTML format.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;View the file in a web browser:&lt;/strong&gt; The final rendered output of your document can now be viewed in a web browser.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;How does markdown work&#34; srcset=&#34;
+               /post/markdown/1_hu148c1a004a1ee269cebcc09300f69547_7326_0d15be6ba1430a538f5fae31ea0c7962.webp 400w,
+               /post/markdown/1_hu148c1a004a1ee269cebcc09300f69547_7326_e82cd9f6f8e5df694abceb9cb9ba2826.webp 760w,
+               /post/markdown/1_hu148c1a004a1ee269cebcc09300f69547_7326_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://example.com/post/markdown/1_hu148c1a004a1ee269cebcc09300f69547_7326_0d15be6ba1430a538f5fae31ea0c7962.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;194&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2023-present &lt;a href=&#34;iragoum.github.io&#34;&gt;Mougari Abderrahim&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;iragoum.github.io&#34;&gt;MGR&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A journey on how i passed last week</title>
       <link>https://example.com/post/how-i-passed-my-last-week/</link>
       <pubDate>Fri, 17 Mar 2023 14:07:00 +0000</pubDate>
