@@ -33,6 +33,86 @@
     </item>
     
     <item>
+      <title>Python as a scientific programming language.</title>
+      <link>https://example.com/post/python/</link>
+      <pubDate>Fri, 12 May 2023 15:07:00 +0000</pubDate>
+      <guid>https://example.com/post/python/</guid>
+      <description>&lt;p&gt;Python has become one of the most widely used programming languages in the scientific community. Its versatility and ease of use have made it a go-to language for a wide range of scientific applications, from data analysis to simulations and modeling.&lt;/p&gt;
+&lt;p&gt;One of the key reasons why Python has gained so much popularity in scientific programming is its large ecosystem of scientific libraries. These libraries provide a wealth of tools for data analysis, visualization, and scientific computing, making it easy for scientists to perform complex analyses and simulations quickly and efficiently.&lt;/p&gt;
+&lt;p&gt;One of the most popular scientific libraries in Python is NumPy. This library provides support for large, multi-dimensional arrays and matrices, along with a range of mathematical functions for performing operations on these arrays. Another popular library is Pandas, which provides support for data manipulation, analysis, and visualization. With these tools, scientists can easily work with large datasets and perform complex analyses, all within the Python environment.&lt;/p&gt;
+&lt;p&gt;Python&amp;rsquo;s readability and ease of use also make it a great choice for scientists who are not necessarily expert programmers. Its syntax is simple and easy to learn, making it accessible to researchers from a variety of scientific fields. This allows scientists to focus on their research rather than struggling with complex programming languages.&lt;/p&gt;
+&lt;p&gt;In addition, Python&amp;rsquo;s open-source nature makes it easy for scientists to collaborate and share code with one another. Scientists can share their code on platforms like GitHub, making it easy for others to reproduce their results and build on their research.&lt;/p&gt;
+&lt;p&gt;Python is also versatile enough to be used in a wide range of scientific applications. It can be used for data analysis, simulations, modeling, and even machine learning. Its flexibility makes it a valuable tool for scientists in a variety of fields, including biology, physics, and engineering.&lt;/p&gt;
+&lt;p&gt;In conclusion, Python has become a popular choice for scientific programming due to its large ecosystem of scientific libraries, ease of use, readability, versatility, and open-source nature. With its wide range of applications and powerful tools, Python is helping scientists to perform complex analyses and simulations quickly and efficiently, ultimately advancing scientific research and discovery.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2023-present &lt;a href=&#34;iragoum.github.io&#34;&gt;Mougari Abderrahim&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;iragoum.github.io&#34;&gt;MGR&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nvidia and its role in the world of AI</title>
+      <link>https://example.com/project/example/</link>
+      <pubDate>Thu, 11 May 2023 15:15:00 +0000</pubDate>
+      <guid>https://example.com/project/example/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;NVIDIA&lt;/strong&gt; is one of the leading technology companies in the world, and it has made significant strides in the field of artificial intelligence (&lt;strong&gt;AI&lt;/strong&gt;). Through its innovative hardware and software solutions, &lt;strong&gt;NVIDIA&lt;/strong&gt; has helped to transform the way that &lt;strong&gt;AI&lt;/strong&gt; is developed and deployed across a wide range of industries.&lt;/p&gt;
+&lt;p&gt;One of the key areas where &lt;strong&gt;NVIDIA&lt;/strong&gt; has made significant contributions to &lt;strong&gt;AI&lt;/strong&gt; is in the development of graphics processing units (GPUs). These powerful processors are essential for training complex machine learning models, and NVIDIA has been at the forefront of developing GPUs specifically designed for AI applications. Its Tensor Cores, for example, provide a level of performance and efficiency that is essential for deep learning applications.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Nvidia&#34; srcset=&#34;
+               /project/example/1_hu8b6417802f134ed0aad959f4afabeb3e_63517_d7b42d3500377bbcd74f8809c3ec729d.webp 400w,
+               /project/example/1_hu8b6417802f134ed0aad959f4afabeb3e_63517_97d839de65d48103f3f799d4d597a6ab.webp 760w,
+               /project/example/1_hu8b6417802f134ed0aad959f4afabeb3e_63517_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://example.com/project/example/1_hu8b6417802f134ed0aad959f4afabeb3e_63517_d7b42d3500377bbcd74f8809c3ec729d.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+&lt;p&gt;NVIDIA has also developed software tools that have made it easier for developers to build and deploy AI applications. Its CUDA platform provides a powerful framework for developing parallel applications on GPUs, and its cuDNN library provides essential algorithms for deep learning applications. NVIDIA&amp;rsquo;s DeepStream SDK, meanwhile, provides a complete set of tools for building video analytics applications, making it easier for developers to incorporate AI into their video processing workflows.&lt;/p&gt;
+&lt;p&gt;In addition to its hardware and software solutions, NVIDIA has also played a key role in advancing the field of AI through its partnerships and collaborations. It has worked with a wide range of organizations across industries, from healthcare to automotive, to develop AI solutions that can solve some of the most pressing challenges facing these industries. For example, NVIDIA&amp;rsquo;s work with Mercedes-Benz has led to the development of an AI-powered infotainment system that provides drivers with personalized recommendations based on their preferences and behavior.&lt;/p&gt;
+&lt;p&gt;Finally, NVIDIA has also made significant contributions to the development of AI ethics and responsible AI. It has been actively involved in developing ethical frameworks for AI development and deployment, and it has made significant investments in programs that promote diversity and inclusion in the AI industry.&lt;/p&gt;
+&lt;p&gt;In conclusion, NVIDIA has made significant contributions to the field of AI through its innovative hardware and software solutions, partnerships and collaborations, and its commitment to responsible AI development. Its contributions have helped to transform the way that AI is developed and deployed across industries, making it easier for developers to build and deploy AI applications that can solve some of the most pressing challenges facing society today.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Park Gorky</title>
+      <link>https://example.com/post/park-gorky/</link>
+      <pubDate>Thu, 11 May 2023 14:07:00 +0000</pubDate>
+      <guid>https://example.com/post/park-gorky/</guid>
+      <description>&lt;p&gt;After finishing my classes at the University of RUDN, I felt the urge to explore a bit more of Moscow&amp;rsquo;s beauty. So, I decided to take the metro to Gorky Park and enjoy a walk through this iconic landmark.&lt;/p&gt;
+&lt;p&gt;As I exited the metro station, the first thing that caught my attention was the stunning lighting in the park. It was like the whole place was covered with a warm blanket of light, creating a dreamy atmosphere that felt magical. I couldn&amp;rsquo;t wait to begin my exploration.&lt;/p&gt;
+&lt;p&gt;I started my walk by following the wide, paved path that led deeper into the park. The first thing that I saw was a large pond with a stunning fountain in the center. The water sparkled under the golden lights, and I could hear the sound of the water trickling from the fountain. The view was so soothing that I found myself taking deep breaths of the fresh, cool air.&lt;/p&gt;
+&lt;p&gt;As I continued my walk, I found myself surrounded by towering trees and lush greenery. The path wound its way through the park, taking me past tranquil ponds, ornate fountains, and carefully tended gardens. The sound of my footsteps on the path and the rustling of leaves underfoot was the only sound that broke the stillness of the night. It was like the whole park belonged to me.&lt;/p&gt;
+&lt;p&gt;As I walked, I came across a group of people gathered around a small stage. A band was playing lively music, and the crowd was swaying and dancing along. The energy was infectious, and I found myself smiling and tapping my foot along with the beat. I stayed for a while, enjoying the music and the atmosphere before continuing my walk.&lt;/p&gt;
+&lt;p&gt;As the night wore on, the park began to empty out, and the once-bustling paths grew quiet. The only sound was the distant hum of traffic and the occasional rustle of leaves in the wind. I took my time walking back to the metro station, savoring every moment of this peaceful and beautiful place.&lt;/p&gt;
+&lt;p&gt;As I left the park and headed back to the metro station, I couldn&amp;rsquo;t help but feel grateful for the chance to experience such a serene and stunning place. Walking through Gorky Park at night was an unforgettable experience that I would cherish forever.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2023-present &lt;a href=&#34;iragoum.github.io&#34;&gt;Mougari Abderrahim&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;iragoum.github.io&#34;&gt;MGR&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Что такое Работа с библиографией?</title>
       <link>https://example.com/post/libraries/</link>
       <pubDate>Thu, 27 Apr 2023 15:07:00 +0000</pubDate>
@@ -437,7 +517,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-982357614&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-216793458&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -447,7 +527,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-982357614&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-216793458&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -863,19 +943,6 @@ $$&lt;/p&gt;
 &lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Example Project</title>
-      <link>https://example.com/project/example/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/example/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
 </description>
     </item>
     

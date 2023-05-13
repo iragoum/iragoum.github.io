@@ -5,12 +5,48 @@
     <link>https://example.com/tag/rudn/</link>
       <atom:link href="https://example.com/tag/rudn/index.xml" rel="self" type="application/rss+xml" />
     <description>RUDN</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 27 Apr 2023 15:07:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 12 May 2023 15:07:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>RUDN</title>
       <link>https://example.com/tag/rudn/</link>
     </image>
+    
+    <item>
+      <title>Python as a scientific programming language.</title>
+      <link>https://example.com/post/python/</link>
+      <pubDate>Fri, 12 May 2023 15:07:00 +0000</pubDate>
+      <guid>https://example.com/post/python/</guid>
+      <description>&lt;p&gt;Python has become one of the most widely used programming languages in the scientific community. Its versatility and ease of use have made it a go-to language for a wide range of scientific applications, from data analysis to simulations and modeling.&lt;/p&gt;
+&lt;p&gt;One of the key reasons why Python has gained so much popularity in scientific programming is its large ecosystem of scientific libraries. These libraries provide a wealth of tools for data analysis, visualization, and scientific computing, making it easy for scientists to perform complex analyses and simulations quickly and efficiently.&lt;/p&gt;
+&lt;p&gt;One of the most popular scientific libraries in Python is NumPy. This library provides support for large, multi-dimensional arrays and matrices, along with a range of mathematical functions for performing operations on these arrays. Another popular library is Pandas, which provides support for data manipulation, analysis, and visualization. With these tools, scientists can easily work with large datasets and perform complex analyses, all within the Python environment.&lt;/p&gt;
+&lt;p&gt;Python&amp;rsquo;s readability and ease of use also make it a great choice for scientists who are not necessarily expert programmers. Its syntax is simple and easy to learn, making it accessible to researchers from a variety of scientific fields. This allows scientists to focus on their research rather than struggling with complex programming languages.&lt;/p&gt;
+&lt;p&gt;In addition, Python&amp;rsquo;s open-source nature makes it easy for scientists to collaborate and share code with one another. Scientists can share their code on platforms like GitHub, making it easy for others to reproduce their results and build on their research.&lt;/p&gt;
+&lt;p&gt;Python is also versatile enough to be used in a wide range of scientific applications. It can be used for data analysis, simulations, modeling, and even machine learning. Its flexibility makes it a valuable tool for scientists in a variety of fields, including biology, physics, and engineering.&lt;/p&gt;
+&lt;p&gt;In conclusion, Python has become a popular choice for scientific programming due to its large ecosystem of scientific libraries, ease of use, readability, versatility, and open-source nature. With its wide range of applications and powerful tools, Python is helping scientists to perform complex analyses and simulations quickly and efficiently, ultimately advancing scientific research and discovery.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2023-present &lt;a href=&#34;iragoum.github.io&#34;&gt;Mougari Abderrahim&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;iragoum.github.io&#34;&gt;MGR&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Park Gorky</title>
+      <link>https://example.com/post/park-gorky/</link>
+      <pubDate>Thu, 11 May 2023 14:07:00 +0000</pubDate>
+      <guid>https://example.com/post/park-gorky/</guid>
+      <description>&lt;p&gt;After finishing my classes at the University of RUDN, I felt the urge to explore a bit more of Moscow&amp;rsquo;s beauty. So, I decided to take the metro to Gorky Park and enjoy a walk through this iconic landmark.&lt;/p&gt;
+&lt;p&gt;As I exited the metro station, the first thing that caught my attention was the stunning lighting in the park. It was like the whole place was covered with a warm blanket of light, creating a dreamy atmosphere that felt magical. I couldn&amp;rsquo;t wait to begin my exploration.&lt;/p&gt;
+&lt;p&gt;I started my walk by following the wide, paved path that led deeper into the park. The first thing that I saw was a large pond with a stunning fountain in the center. The water sparkled under the golden lights, and I could hear the sound of the water trickling from the fountain. The view was so soothing that I found myself taking deep breaths of the fresh, cool air.&lt;/p&gt;
+&lt;p&gt;As I continued my walk, I found myself surrounded by towering trees and lush greenery. The path wound its way through the park, taking me past tranquil ponds, ornate fountains, and carefully tended gardens. The sound of my footsteps on the path and the rustling of leaves underfoot was the only sound that broke the stillness of the night. It was like the whole park belonged to me.&lt;/p&gt;
+&lt;p&gt;As I walked, I came across a group of people gathered around a small stage. A band was playing lively music, and the crowd was swaying and dancing along. The energy was infectious, and I found myself smiling and tapping my foot along with the beat. I stayed for a while, enjoying the music and the atmosphere before continuing my walk.&lt;/p&gt;
+&lt;p&gt;As the night wore on, the park began to empty out, and the once-bustling paths grew quiet. The only sound was the distant hum of traffic and the occasional rustle of leaves in the wind. I took my time walking back to the metro station, savoring every moment of this peaceful and beautiful place.&lt;/p&gt;
+&lt;p&gt;As I left the park and headed back to the metro station, I couldn&amp;rsquo;t help but feel grateful for the chance to experience such a serene and stunning place. Walking through Gorky Park at night was an unforgettable experience that I would cherish forever.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2023-present &lt;a href=&#34;iragoum.github.io&#34;&gt;Mougari Abderrahim&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;iragoum.github.io&#34;&gt;MGR&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Что такое Работа с библиографией?</title>
