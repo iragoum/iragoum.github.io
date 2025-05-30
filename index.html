@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoChef - Smart Kitchen Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.svg" alt="EcoChef Logo" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100\' height=\'100\' viewBox=\'0 0 100 100\'><rect width=\'100\' height=\'100\' fill=\'%2333aa66\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'Arial\' font-size=\'24\' fill=\'white\'>EC</text></svg>'">
+                <h1>EcoChef</h1>
+            </div>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project-stages">Project Stages</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="auth.html" class="cta-button">Project Files</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Reduce Food Waste with <span class="highlight">EcoChef</span></h1>
+            <p>An intelligent voice-controlled kitchen device paired with a mobile app to minimize food waste and optimize meal planning.</p>
+            <a href="auth.html" class="cta-button">Access Project Files</a>
+        </div>
+        <div class="hero-image">
+            <img src="images/logo.svg" alt="EcoChef Device" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23f0f0f0\'/><circle cx=\'200\' cy=\'150\' r=\'80\' fill=\'%2333aa66\'/><rect x=\'170\' y=\'90\' width=\'60\' height=\'120\' rx=\'10\' fill=\'%23ffffff\'/><circle cx=\'200\' cy=\'70\' r=\'20\' fill=\'%23ffffff\'/></svg>'">
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <h2>Key Features</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fas fa-barcode"></i>
+                <h3>Inventory Tracking</h3>
+                <p>Scan barcodes, input expiration dates, or use AI camera to automatically identify and track food items.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-utensils"></i>
+                <h3>Recipe Recommendations</h3>
+                <p>Get personalized recipe suggestions based on available ingredients and dietary preferences.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-shopping-basket"></i>
+                <h3>Smart Shopping Lists</h3>
+                <p>Create optimized shopping lists to prevent over-purchasing and reduce food waste.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-bell"></i>
+                <h3>Expiration Alerts</h3>
+                <p>Receive notifications about products nearing their expiration date.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-truck-loading"></i>
+                <h3>Delivery Integration</h3>
+                <p>Connect with grocery delivery services for convenient inventory replenishment.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-leaf"></i>
+                <h3>Eco Statistics</h3>
+                <p>Track your sustainability achievements with detailed reports on waste reduction and CO₂ savings.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About the Project</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>EcoChef is an innovative solution designed to address the global challenge of food waste while simplifying meal planning for busy individuals and families. By combining AI technology with practical kitchen management tools, EcoChef helps users make the most of their food inventory.</p>
+                <h3>Our Mission</h3>
+                <p>To reduce household food waste by 50% through smart technology and personalized guidance, contributing to a more sustainable future.</p>
+                <h3>Client Focus</h3>
+                <ul>
+                    <li><strong>Problem Solving:</strong> Reducing food waste, saving money, and simplifying meal planning.</li>
+                    <li><strong>Personalization:</strong> Learning user food preferences and adapting recipes to individual diets.</li>
+                    <li><strong>Gamification:</strong> "EcoPoints" reward system for waste reduction that can be exchanged for discounts or charitable donations.</li>
+                </ul>
+            </div>
+            <div class="about-image">
+                <img src="images/logo.svg" alt="EcoChef Concept" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23f0f0f0\'/><circle cx=\'200\' cy=\'150\' r=\'100\' fill=\'%2333aa66\' opacity=\'0.3\'/><path d=\'M150,200 C150,150 250,150 250,200\' stroke=\'%2333aa66\' stroke-width=\'8\' fill=\'none\'/><circle cx=\'150\' cy=\'120\' r=\'20\' fill=\'%2333aa66\'/><circle cx=\'250\' cy=\'120\' r=\'20\' fill=\'%2333aa66\'/></svg>'">
+            </div>
+        </div>
+    </section>
+
+    <section id="project-stages" class="project-stages">
+        <h2>Project Development Roadmap</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="timeline-content">
+                    <h3>Phase 1: Research and Prototyping (3 months)</h3>
+                    <ul>
+                        <li>Comprehensive market analysis of existing solutions</li>
+                        <li>User interviews with target demographic groups</li>
+                        <li>Initial software architecture planning</li>
+                        <li>Hardware component selection and testing</li>
+                        <li>First prototype development with basic functions</li>
+                    </ul>
+                    <p><strong>Key Milestone:</strong> Working prototype demonstrating core functionality</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <div class="timeline-content">
+                    <h3>Phase 2: Development (6 months)</h3>
+                    <ul>
+                        <li>Full hardware design and specifications finalization</li>
+                        <li>Mobile app development (iOS and Android)</li>
+                        <li>Voice recognition and AI algorithms implementation</li>
+                        <li>Cloud infrastructure setup and API development</li>
+                        <li>Database architecture for recipe and inventory management</li>
+                        <li>Integration with third-party delivery services</li>
+                    </ul>
+                    <p><strong>Key Milestone:</strong> Complete hardware device and app with basic integrations</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-vial"></i>
+                </div>
+                <div class="timeline-content">
+                    <h3>Phase 3: Testing and Refinement (3 months)</h3>
+                    <ul>
+                        <li>Beta testing with 1,000 selected users</li>
+                        <li>AI algorithm training with real-world data</li>
+                        <li>Performance optimization and bug fixes</li>
+                        <li>User experience refinement based on feedback</li>
+                        <li>Security and privacy audit</li>
+                        <li>Final hardware revisions for production</li>
+                    </ul>
+                    <p><strong>Key Milestone:</strong> Refined product ready for production</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <div class="timeline-content">
+                    <h3>Phase 4: Launch and Market Entry (1 month)</h3>
+                    <ul>
+                        <li>Manufacturing setup and quality control</li>
+                        <li>Marketing campaign execution across channels</li>
+                        <li>Distribution partnerships finalization</li>
+                        <li>Support team training and infrastructure setup</li>
+                        <li>Official launch event and PR activities</li>
+                    </ul>
+                    <p><strong>Key Milestone:</strong> Product available for purchase to general public</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="uml-diagrams" class="uml-overview">
+        <h2>System Architecture and Documentation</h2>
+        <p class="section-intro">The EcoChef system is thoroughly documented through a comprehensive set of UML diagrams that visualize both the structural and behavioral aspects of the system.</p>
+        
+        <div class="diagram-categories">
+            <div class="diagram-category">
+                <h3>Structural Diagrams</h3>
+                <p>These diagrams illustrate how the system is organized and structured.</p>
+                <ul class="diagram-list">
+                    <li><i class="fas fa-sitemap"></i> <strong>Class Diagram</strong> - Shows the system's classes, attributes, methods, and relationships</li>
+                    <li><i class="fas fa-cube"></i> <strong>Object Diagram</strong> - Illustrates instances of classes and their state at a specific moment</li>
+                    <li><i class="fas fa-puzzle-piece"></i> <strong>Component Diagram</strong> - Describes physical and logical components and their interactions</li>
+                    <li><i class="fas fa-folder"></i> <strong>Package Diagram</strong> - Groups elements into logical packages showing dependencies</li>
+                    <li><i class="fas fa-server"></i> <strong>Deployment Diagram</strong> - Shows how software and hardware are distributed</li>
+                    <li><i class="fas fa-th"></i> <strong>Composite Structure Diagram</strong> - Details internal structure of classes and interactions</li>
+                </ul>
+            </div>
+            
+            <div class="diagram-category">
+                <h3>Behavioral Diagrams</h3>
+                <p>These diagrams show how the system works and behaves during execution.</p>
+                <ul class="diagram-list">
+                    <li><i class="fas fa-clock"></i> <strong>Timing Diagram</strong> - Displays sequence of events and changes in object states over time</li>
+                    <li><i class="fas fa-project-diagram"></i> <strong>Interaction Overview Diagram</strong> - Provides a generalized view of the interaction process</li>
+                    <li><i class="fas fa-comments"></i> <strong>Communication Diagram</strong> - Details message exchange between objects or participants</li>
+                    <li><i class="fas fa-random"></i> <strong>State Diagram</strong> - Describes possible states and transitions between them</li>
+                    <li><i class="fas fa-exchange-alt"></i> <strong>Sequence Diagram</strong> - Illustrates the order of operations between participants</li>
+                    <li><i class="fas fa-tasks"></i> <strong>Activity Diagram</strong> - Describes workflows or algorithms as actions and decisions</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="cta-section">
+            <p>Full UML diagrams and technical documentation are available in the project files.</p>
+            <a href="auth.html" class="cta-button">View Project Files</a>
+        </div>
+    </section>
+
+    <section id="team-workflow" class="team-workflow">
+        <h2>Development Team Workflow</h2>
+        
+        <div class="workflow-container">
+            <div class="workflow-card">
+                <div class="workflow-header">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Development Team</h3>
+                </div>
+                <div class="workflow-content">
+                    <div class="team-member-workflow">
+                        <h4>Marina - Lead Developer</h4>
+                        <p>Marina handles code reviews and ensures architecture consistency. She leads the development of AI recommendation algorithms and oversees technical decisions for the project.</p>
+                    </div>
+                    <div class="team-member-workflow">
+                        <h4>Alexei - Backend Engineer</h4>
+                        <p>Alexei builds the cloud infrastructure, database design, and API endpoints for integrating with grocery delivery services. He ensures data flows smoothly between all system components.</p>
+                    </div>
+                    <div class="team-member-workflow">
+                        <h4>Irina - Mobile Developer</h4>
+                        <p>Irina leads the React Native mobile application development, implementing user interfaces, barcode scanning, and inventory management features with a focus on usability.</p>
+                    </div>
+                    <div class="team-member-workflow">
+                        <h4>Dmitry - Hardware Engineer</h4>
+                        <p>Dmitry designs the physical EcoChef device, optimizing microphone configurations for voice recognition in noisy kitchen environments and coordinating with manufacturing partners.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="workflow-card">
+                <div class="workflow-header">
+                    <i class="fas fa-users"></i>
+                    <h3>Product & Design Team</h3>
+                </div>
+                <div class="workflow-content">
+                    <div class="team-member-workflow">
+                        <h4>Natalia - Product Manager</h4>
+                        <p>Natalia coordinates the product roadmap, prioritizes features based on market research, and analyzes user feedback to determine which features should be included in each release.</p>
+                    </div>
+                    <div class="team-member-workflow">
+                        <h4>Pavel - UX Designer</h4>
+                        <p>Pavel creates the user experience across the EcoChef ecosystem, designing interfaces for the mobile app and hardware device based on usability testing results.</p>
+                    </div>
+                    <div class="team-member-workflow">
+                        <h4>Olga - Data Scientist</h4>
+                        <p>Olga develops the data models and machine learning algorithms that power EcoChef's recommendation engine, improving personalization based on user behavior patterns.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="workflow-card">
+                <div class="workflow-header">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Marketing & Business Team</h3>
+                </div>
+                <div class="workflow-content">
+                    <div class="team-member-workflow">
+                        <h4>Mikhail - Marketing Director</h4>
+                        <p>Mikhail leads the go-to-market strategy, coordinating with social media influencers and planning product demonstration events like the "Zero-Waste Recipe Challenge" campaign.</p>
+                    </div>
+                    <div class="team-member-workflow">
+                        <h4>Elena - Business Development</h4>
+                        <p>Elena secures partnerships with retail stores for in-store displays and negotiates agreements with grocery delivery services for API integration, ensuring wide distribution.</p>
+                    </div>
+                    <div class="team-member-workflow">
+                        <h4>Sergei - Customer Support Lead</h4>
+                        <p>Sergei builds the support infrastructure, creates training materials, and develops the knowledge base and troubleshooting guides for the customer support team.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team">
+        <h2>Meet The Founder</h2>
+        <div class="team-member">
+            <div class="team-photo">
+                <img src="images/me.jpeg" alt="Project Creator" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'200\' height=\'200\' viewBox=\'0 0 200 200\'><rect width=\'200\' height=\'200\' fill=\'%23f0f0f0\'/><circle cx=\'100\' cy=\'80\' r=\'40\' fill=\'%23ccc\'/><circle cx=\'100\' cy=\'230\' r=\'100\' fill=\'%23ccc\'/></svg>'">
+            </div>
+            <div class="team-info">
+                <h3>Mougari Abderrahim</h3>
+                <p class="role">Project Lead & Developer</p>
+                <p class="bio">As the creator of EcoChef, I'm passionate about combining technology with sustainability to make a positive impact on our planet. With expertise in AI, mobile development, and sustainable solutions, I've designed EcoChef to address the critical issue of food waste while providing a seamless user experience.</p>
+                <div class="social-links">
+                    <a href="https://fr.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/iragoum"><i class="fab fa-github"></i></a>
+                    <a href="https://x.com/abderrahimmgr"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>1032215692@pfur.ru</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+7 (901) 360-38-29</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>улица Орджоникидзе, 3</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo.svg" alt="EcoChef Logo" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'50\' height=\'50\' viewBox=\'0 0 50 50\'><rect width=\'50\' height=\'50\' fill=\'%2333aa66\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'Arial\' font-size=\'12\' fill=\'white\'>EC</text></svg>'">
+                <h3>EcoChef</h3>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project-stages">Project Stages</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.facebook.com/iragoum"><i class="fab fa-facebook"></i></a>
+                <a href="https://x.com/abderrahimmgr"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/iragoum"><i class="fab fa-instagram"></i></a>
+                <a href="https://fr.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 EcoChef. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

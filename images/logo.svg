@@ -1,0 +1,32 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circular gradient background -->
+  <circle cx="250" cy="160" r="110" fill="url(#eco-gradient)"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="eco-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#43A047" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#1B5E20" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Plate outline -->
+  <circle cx="250" cy="160" r="90" fill="white" stroke="#2E7D32" stroke-width="4"/>
+  
+  <!-- Fork icon -->
+  <path d="M190,110 L190,150 C190,165 205,175 205,175 L205,210 L220,210 L220,175 C220,175 235,165 235,150 L235,110 L225,110 L225,145 C225,150 220,155 215,155 L215,110 L205,110 L205,150 C205,155 200,160 195,160 L195,110 Z" fill="#2E7D32"/>
+  
+  <!-- Leaf/Spoon combination -->
+  <path d="M280,110 C280,110 260,130 260,150 C260,165 270,175 270,175 L270,210 L285,210 L285,175 C285,175 305,160 305,135 C305,110 290,110 290,110 Z" fill="#2E7D32"/>
+  <path d="M280,120 C280,120 270,135 270,150 C270,165 280,175 280,175" fill="none" stroke="#AED581" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Digital elements - scan lines -->
+  <rect x="200" y="150" width="100" height="3" rx="1.5" ry="1.5" fill="#AED581"/>
+  <rect x="185" y="163" width="130" height="3" rx="1.5" ry="1.5" fill="#AED581"/>
+  <rect x="195" y="176" width="110" height="3" rx="1.5" ry="1.5" fill="#AED581"/>
+  <rect x="210" y="189" width="80" height="3" rx="1.5" ry="1.5" fill="#AED581"/>
+  
+  <!-- Text - now positioned with more space below the circle -->
+  <text x="250" y="350" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#1B5E20">EcoChef</text>
+  <text x="250" y="380" font-family="Arial, sans-serif" font-size="16" letter-spacing="2" text-anchor="middle" fill="#388E3C">REDUCE · REUSE · REPURPOSE</text>
+</svg>

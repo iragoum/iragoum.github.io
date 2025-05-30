@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Viewer Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        #pdf-viewer {
+            width: 100%;
+            min-height: 500px;
+            border: 1px solid #ddd;
+            margin: 20px 0;
+        }
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 8px 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #3e8e41;
+        }
+        .status {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 4px;
+            background-color: #f0f0f0;
+        }
+        .success {
+            background-color: #dff0d8;
+            color: #3c763d;
+        }
+        .error {
+            background-color: #f2dede;
+            color: #a94442;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>PDF Viewer Test</h1>
+        
+        <div class="controls">
+            <button id="test-pdf-js">Test PDF.js</button>
+            <button id="test-fetch">Test Fetch API</button>
+            <button id="render-pdf">Render PDF</button>
+        </div>
+        
+        <div id="status" class="status">
+            Status: Ready to test
+        </div>
+        
+        <div id="pdf-viewer">
+            <canvas id="pdf-canvas"></canvas>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize PDF.js
+            pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.worker.min.js';
+            
+            const status = document.getElementById('status');
+            const pdfCanvas = document.getElementById('pdf-canvas');
+            const ctx = pdfCanvas.getContext('2d');
+            
+            // Test PDF.js availability
+            document.getElementById('test-pdf-js').addEventListener('click', function() {
+                if (typeof pdfjsLib !== 'undefined') {
+                    status.textContent = 'Status: PDF.js is loaded correctly';
+                    status.className = 'status success';
+                } else {
+                    status.textContent = 'Status: PDF.js is NOT loaded correctly';
+                    status.className = 'status error';
+                }
+            });
+            
+            // Test Fetch API with the PDF file
+            document.getElementById('test-fetch').addEventListener('click', function() {
+                status.textContent = 'Status: Attempting to fetch the PDF file...';
+                status.className = 'status';
+                
+                fetch('1.pdf', { method: 'HEAD' })
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! Status: ${response.status}`);
+                        }
+                        status.textContent = `Status: PDF file exists and is accessible (${response.status})`;
+                        status.className = 'status success';
+                    })
+                    .catch(error => {
+                        status.textContent = `Status: Error fetching PDF - ${error.message}`;
+                        status.className = 'status error';
+                    });
+            });
+            
+            // Render the PDF
+            document.getElementById('render-pdf').addEventListener('click', function() {
+                status.textContent = 'Status: Attempting to render the PDF...';
+                status.className = 'status';
+                
+                // Load PDF document
+                pdfjsLib.getDocument('templates/1.pdf').promise
+                    .then(function(pdf) {
+                        status.textContent = `Status: PDF loaded successfully with ${pdf.numPages} pages`;
+                        status.className = 'status success';
+                        
+                        // Get the first page
+                        return pdf.getPage(1);
+                    })
+                    .then(function(page) {
+                        // Set scale
+                        const scale = 1.5;
+                        const viewport = page.getViewport({ scale: scale });
+                        
+                        // Set canvas dimensions
+                        pdfCanvas.height = viewport.height;
+                        pdfCanvas.width = viewport.width;
+                        
+                        // Render PDF page
+                        const renderContext = {
+                            canvasContext: ctx,
+                            viewport: viewport
+                        };
+                        
+                        return page.render(renderContext).promise;
+                    })
+                    .then(function() {
+                        status.textContent = 'Status: PDF rendered successfully';
+                    })
+                    .catch(function(error) {
+                        status.textContent = `Status: Error rendering PDF - ${error.message}`;
+                        status.className = 'status error';
+                        console.error('PDF rendering error:', error);
+                    });
+            });
+        });
+    </script>
+</body>
+</html>
